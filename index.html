@@ -1,33 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Olimpíadas Além do Óbvio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: white;
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .tableauPlaceholder {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-    }
-
-    .tableauViz {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpíadas em Dados</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class='tableauPlaceholder' id='viz1730936727514' style='position: relative'><noscript><a href='#'><img alt='Painel 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProjetoVisualizacaoDados&#47;Painel1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ProjetoVisualizacaoDados&#47;Painel1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pr&#47;ProjetoVisualizacaoDados&#47;Painel1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='pt-BR' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1730936727514');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='840px';vizElement.style.height='2027px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='840px';vizElement.style.height='2027px';} else { vizElement.style.width='100%';vizElement.style.height='1427px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <header>
+        <h1>Olimpíadas em Dados</h1>
+        <nav>
+            <ul>
+                <li><a href="#impacto-sede">Impacto dos Países-Sede</a></li>
+                <li><a href="#economia">Fatores Econômicos</a></li>
+                <li><a href="#populacao">População</a></li>
+                <li><a href="#global">Comparações Temporais</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="impacto-sede">
+            <h2>Países-Sede: Uma Vantagem em Jogo?</h2>
+            <div class='tableauPlaceholder' id='viz1731866753753' style='position: relative'><noscript><a href='#'><img alt='Comparativo Países Sede Vs Outros Ao Longo dos Anos ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ComparativoPasesSedeVsOutrosAoLongodosAnos&#47;QuantidadedeMedalhas-PasesSedeVsOutros&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ComparativoPasesSedeVsOutrosAoLongodosAnos&#47;QuantidadedeMedalhas-PasesSedeVsOutros' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ComparativoPasesSedeVsOutrosAoLongodosAnos&#47;QuantidadedeMedalhas-PasesSedeVsOutros&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='pt-BR' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1731866753753');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <div class='tableauPlaceholder' id='viz1731872700116' style='position: relative'><noscript><a href='#'><img alt='Comparativo entre Medalhas e Ranking - Não Sede vs Sede - Desde 2000 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ComparativoentreMedalhaseRanking-NoSedevsSede-Desde2000&#47;ComparativoentreMedalhaseRanking-NoSedevsSede-Desde2000&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ComparativoentreMedalhaseRanking-NoSedevsSede-Desde2000&#47;ComparativoentreMedalhaseRanking-NoSedevsSede-Desde2000' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;ComparativoentreMedalhaseRanking-NoSedevsSede-Desde2000&#47;ComparativoentreMedalhaseRanking-NoSedevsSede-Desde2000&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='pt-BR' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1731872700116');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </section>
+
+        <section id="economia">
+            <h2>A Relação entre Economia e Desempenho Olímpico</h2>
+            <div class='tableauPlaceholder' id='viz1731872962733' style='position: relative'><noscript><a href='#'><img alt='PIB per capita vs Medalhas nas Olimpíadas ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PI&#47;PIBvsMedalhasnasOlimpadas&#47;PIBvsMedalhasnasOlimpadas&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PIBvsMedalhasnasOlimpadas&#47;PIBvsMedalhasnasOlimpadas' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PI&#47;PIBvsMedalhasnasOlimpadas&#47;PIBvsMedalhasnasOlimpadas&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='pt-BR' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1731872962733');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <p>*O <b>Total Ponderado de Medalhas</b> leva em conta o tipo da medalha como peso. Nesse caso, as medalhas de Ouro possuem peso 3, as de Prata peso 2 e as de Bronze peso 1.</p>
+        </section>
+        
+        <section id="populacao">
+            <h2>A Relação entre População e o Desempenho Olímpico</h2>
+            <div class='tableauPlaceholder' id='viz1731872962733' style='position: relative'><noscript><a href='#'><img alt='PIB per capita vs Medalhas nas Olimpíadas ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PI&#47;PIBvsMedalhasnasOlimpadas&#47;PIBvsMedalhasnasOlimpadas&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='PIBvsMedalhasnasOlimpadas&#47;PIBvsMedalhasnasOlimpadas' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PI&#47;PIBvsMedalhasnasOlimpadas&#47;PIBvsMedalhasnasOlimpadas&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='pt-BR' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1731872962733');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </section>
+
+        <section id="global">
+            <h2>Jogos Olímpicos Ao Longo dos Anos</h2>
+            <div class='tableauPlaceholder' id='viz1731872903161' style='position: relative'><noscript><a href='#'><img alt='Qtd de Medalhas no Mundo ao Longo dos Anos ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qt&#47;QtddeMedalhasnoMundoaoLongodosAnos&#47;QtddeMedalhasnoMundoaoLongodosAnos&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='QtddeMedalhasnoMundoaoLongodosAnos&#47;QtddeMedalhasnoMundoaoLongodosAnos' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Qt&#47;QtddeMedalhasnoMundoaoLongodosAnos&#47;QtddeMedalhasnoMundoaoLongodosAnos&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='pt-BR' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1731872903161');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <div class='tableauPlaceholder' id='viz1731859751943' style='position: relative'><noscript><a href='#'><img alt='Histórico de Quantidade de Medalhas Por Ano - USA ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Hi&#47;HistricodeQuantidadedeMedalhasPorAno&#47;HistricodeQuantidadedeMedalhasPorAno&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HistricodeQuantidadedeMedalhasPorAno&#47;HistricodeQuantidadedeMedalhasPorAno' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Hi&#47;HistricodeQuantidadedeMedalhasPorAno&#47;HistricodeQuantidadedeMedalhasPorAno&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='pt-BR' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1731859751943');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Dados obtidos do Kaggle. Este trabalho foi desenvolvido como parte da disciplina de Visualização de Dados do CIn - UFPE.
+        </p>
+    </footer>
 </body>
 </html>
